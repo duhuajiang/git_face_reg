@@ -1,0 +1,8 @@
+人脸识别第一版：
+data/img:人员图片（以名字命名图片）
+vgg_face_caffe:VGG模型
+data/:测试视频
+config.txt:配置文件
+
+修改之处：寒武纪IPU版caffe不支持MemoryDataLayer，所以现在用MyExtractFeature.hpp/cpp替换Caffe_net_memorylayer.hpp/ExtractFeature_.hpp
+

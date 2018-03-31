@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1521968728 source:/home/duhuajiang/c_worksp/face_recog/dect_face.cpp
+	"Dect_face.hpp"
+
+1521966763 /home/duhuajiang/c_worksp/face_recog/Dect_face.hpp
+	<iostream>
+	<string>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/gpu/gpu.hpp>
+
+1522128391 source:/home/duhuajiang/c_worksp/face_recog/main.cpp
+	<iostream>
+	"Dect_face.hpp"
+	"ExtractFeature_.hpp"
+	"ComputeDistance.hpp"
+	"Gen_BaseData.hpp"
+
+1521967287 source:/home/duhuajiang/c_worksp/face_recog/extractfeature_.cpp
+	"ExtractFeature_.hpp"
+	"Caffe_net_memorylayer.hpp"
+
+1521953869 /home/duhuajiang/c_worksp/face_recog/ExtractFeature_.hpp
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/gpu/gpu.hpp>
+
+1521887970 /home/duhuajiang/c_worksp/face_recog/Caffe_net_memorylayer.hpp
+	"caffe/layers/input_layer.hpp"
+	"caffe/layers/inner_product_layer.hpp"
+	"caffe/layers/dropout_layer.hpp"
+	"caffe/layers/conv_layer.hpp"
+	"caffe/layers/relu_layer.hpp"
+	<iostream>
+	"caffe/caffe.hpp"
+	<opencv.hpp>
+	<caffe/layers/memory_data_layer.hpp>
+	"caffe/layers/pooling_layer.hpp"
+	"caffe/layers/lrn_layer.hpp"
+	"caffe/layers/softmax_layer.hpp"
+
+1521889756 source:/home/duhuajiang/c_worksp/face_recog/ComputeDistance.cpp
+	"ComputeDistance.hpp"
+
+1521889852 /home/duhuajiang/c_worksp/face_recog/ComputeDistance.hpp
+	<vector>
+	<assert.h>
+	<math.h>
+
+1521974543 /home/duhuajiang/c_worksp/face_recog/Gen_BaseData.hpp
+	<string>
+	<vector>
+	<set>
+	<map>
+	<iostream>
+	<algorithm>
+	<stdio.h>
+	<sys/stat.h>
+	<dirent.h>
+	<fstream>
+	"ExtractFeature_.hpp"
+	<iterator>
+
+1521965338 source:/home/duhuajiang/c_worksp/face_recog/gen_basedata.cpp
+	"Gen_BaseData.hpp"
+
+1521954557 source:/home/duhuajiang/c_worksp/face_recog/SaveVector.cpp
+	"SaveVector.hpp"
+
+1521954552 /home/duhuajiang/c_worksp/face_recog/SaveVector.hpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/gpu/gpu.hpp>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1521889756 source:/home/duhuajiang/c_workspace/face_recog/ComputeDistance.cpp
+	"ComputeDistance.hpp"
+
+1522409931 /home/duhuajiang/c_workspace/face_recog/ComputeDistance.hpp
+	<vector>
+	<assert.h>
+	<math.h>
+
+1521968728 source:/home/duhuajiang/c_workspace/face_recog/dect_face.cpp
+	"Dect_face.hpp"
+
+1522329637 /home/duhuajiang/c_workspace/face_recog/Dect_face.hpp
+	<iostream>
+	<string>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/opencv.hpp>
+
+1522410338 source:/home/duhuajiang/c_workspace/face_recog/extractfeature_.cpp
+	"ExtractFeature_.hpp"
+	"Caffe_net_memorylayer.hpp"
+
+1522417833 /home/duhuajiang/c_workspace/face_recog/ExtractFeature_.hpp
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/opencv.hpp>
+
+1522391832 /home/duhuajiang/c_workspace/face_recog/Caffe_net_memorylayer.hpp
+	<iostream>
+	<caffe/caffe.hpp>
+	<opencv2/opencv.hpp>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<caffe/layers/memory_data_layer.hpp>
+
+1522479369 source:/home/duhuajiang/c_workspace/face_recog/gen_basedata.cpp
+	"Gen_BaseData.hpp"
+
+1522479617 /home/duhuajiang/c_workspace/face_recog/Gen_BaseData.hpp
+	<string>
+	<vector>
+	<set>
+	<map>
+	<iostream>
+	<algorithm>
+	<stdio.h>
+	<sys/stat.h>
+	<dirent.h>
+	<fstream>
+	"MyExtractFeature.hpp"
+	<iterator>
+
+1522481013 source:/home/duhuajiang/c_workspace/face_recog/main.cpp
+	<iostream>
+	"Dect_face.hpp"
+	"MyExtractFeature.hpp"
+	"ComputeDistance.hpp"
+	"Gen_BaseData.hpp"
+	<time.h>
+
+1522481046 /home/duhuajiang/c_workspace/face_recog/MyExtractFeature.hpp
+	<caffe/caffe.hpp>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<algorithm>
+	<iosfwd>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+
+1522481041 source:/home/duhuajiang/c_workspace/face_recog/myExtractFeature.cpp
+	"MyExtractFeature.hpp"
+	"Gen_BaseData.hpp"
+
