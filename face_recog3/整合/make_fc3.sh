@@ -1,0 +1,20 @@
+g++ -std=c++11 -g -pthread -o face_recg_3  face_recg_3.cpp \
+	-I/home/duhuajiang/caffe/caffe-master/include \
+	-I/home/duhuajiang/caffe/caffe-master/build/src \
+	-I/usr/local/opencv3.4/include \
+	-L /usr/local/opencv3.4/lib \
+	-L. /home/duhuajiang/caffe/caffe-master/build/lib/libcaffe.so \
+	-L. /usr/local/opencv3.4/lib/libopencv_core.so.3.4.1 \
+	-L. /usr/local/opencv3.4/lib/libopencv_imgproc.so.3.4.1 \
+	-L. /usr/local/opencv3.4/lib/libopencv_highgui.so.3.4.1 \
+	-L. /usr/local/opencv3.4/lib/libopencv_imgcodecs.so.3.4.1 \
+	-L. /usr/local/opencv3.4/lib/libopencv_dnn.so.3.4.1 \
+	-L. /usr/local/opencv3.4/lib/libopencv_video.so.3.4.1 \
+	-L. /usr/local/opencv3.4/lib/libopencv_videoio.so.3.4.1 \
+	-lboost_system \
+	-lglog  \
+	-pthread \
+ 	-lopencv_core \
+        -lopencv_imgproc \
+        -lopencv_objdetect -lopencv_highgui \
+        -lopencv_flann -lgflags \

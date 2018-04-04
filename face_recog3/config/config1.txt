@@ -1,0 +1,18 @@
+prototxt:./vgg_face_caffe/vd.prototxt
+vgg_model:./vgg_face_caffe/VGG_FACE.caffemodel
+featuretxt:./data/fea.txt
+historyimgtxt:./data/out.txt
+imgpath:./data/img/
+videopath:./data/2.mp4
+threshold:0.7
+window_name:dhj
+meanvalue:129.1863 104.7624 93.5940
+vedio_width:960
+vedio_height:720
+vedio_rate:25
+out_vedio_path:./vedio-out.avi
+face_protxt:./res/deploy.prototxt
+face_model:./res/res10_300x300_ssd_iter_140000.caffemodel
+confidence:0.5
+face_inW:500
+face_inH:500

@@ -1,0 +1,5 @@
+xml_path:./haarcascade_frontalface_default.xml
+pro_text:./vgg_face_caffe/vd.prototxt
+vgg_model:./vgg_face_caffe/VGG_FACE.caffemodel
+base_data:./data/
+video_path:./data/2.mp4
